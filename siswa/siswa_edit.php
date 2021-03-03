@@ -208,9 +208,9 @@
                  <td> <select class="form-control" name="kondisi" style="width: 300px">
                       <option value="<?=$kondisi;?>">-Pilih Kondisi- || <?=$kondisi;?></option>  
                       
-                        <option value="belum bekerja">Belum bekerja</option>
-                        <option value="bekerja">Bekerja</option>
-                        <option value="kuliah">Kuliah</option>
+                        <option value="Belum Bekerja">Belum bekerja</option>
+                        <option value="Bekerja">Bekerja</option>
+                        <option value="Kuliah">Kuliah</option>
   
                     </select>           
                     </td>   

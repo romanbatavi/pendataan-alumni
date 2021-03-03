@@ -210,15 +210,12 @@
                   <td>Kondisi</td>
                  <td> <select class="form-control" name="kondisi" style="width: 300px">
                       <option>-Pilih Kondisi-</option>  
-                      
-                        <option value="belum bekerja">Belum bekerja</option>
-                        <option value="bekerja">Bekerja</option>
-                        <option value="kuliah">Kuliah</option>
-  
-                    </select>           
-                    </td>   
-                      </tr>
-
+                      <option value="Belum Bekerja">Belum bekerja</option>
+                      <option value="Bekerja">Bekerja</option>
+                      <option value="Kuliah">Kuliah</option>
+                      </select>           
+                  </td>   
+                </tr>
                 <tr>
                   <td>Detail Kondisi</td>
                   <td><textarea class="form-control" placeholder="instansi" name="detail_kondisi"></textarea></td>
