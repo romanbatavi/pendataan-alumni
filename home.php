@@ -32,6 +32,7 @@
                       <option value="nomor_peserta">NOMOR PESERTA</option>
                       <option value="nomor_ijazah">NOMOR IJAZAH</option>
                     </select>
+                    
                   <div class="pull-right col-md-9">
                       <div class="input-group">
                         <input type="text" name="cari" class="form-control" placeholder="Cari Alumni ...">

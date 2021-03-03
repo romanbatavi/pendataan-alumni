@@ -5,9 +5,9 @@
 	<!-- Custom styles for this template -->
   <link href="../carousel.css" rel="stylesheet">
   </head>
+
   <body>
   	<?php include_once 'navbar.php'; ?>
-
   	<div class="container-fluid">
   		<div class="row">
   			<div class="col-sm-3 col-md-2 sidebar">
@@ -199,18 +199,15 @@
                 </tr>
                 <tr>
                 <tr>
-                  <td>Kondisi</td>
-                 <td> <select class="form-control" name="kondisi" style="width: 300px">
-                      <option>-Pilih Kondisi-</option>  
-                      
-                        <option value="Belum Bekerja">Belum bekerja</option>
-                        <option value="Bekerja">Bekerja</option>
-                        <option value="Kuliah">Kuliah</option>
-  
+                <td>Kondisi</td>
+                <td><select class="form-control" name="kondisi" style="width: 300px">
+                    <option>-Pilih Kondisi-</option>  
+                    <option value="Belum Bekerja">Belum bekerja</option>
+                    <option value="Bekerja">Bekerja</option>
+                    <option value="Kuliah">Kuliah</option>
                     </select>           
-                    </td>   
-                      </tr>
-
+                </td>   
+                </tr>
                 <tr>
                   <td>Detail Kondisi</td>
                   <td><textarea class="form-control" placeholder="instansi" name="detail_kondisi"></textarea></td>

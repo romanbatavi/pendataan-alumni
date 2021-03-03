@@ -204,18 +204,15 @@
                   <td><input class="form-control" type="text" placeholder="Nilai Akhir" readonly  name="nilai_rata_rata" value="<?=$nilai_rata_rata;?>"></td>
                 </tr>
                 <tr>
-                  <td>Kondisi</td>
-                 <td> <select class="form-control" name="kondisi" style="width: 300px">
-                      <option value="<?=$kondisi;?>">-Pilih Kondisi- || <?=$kondisi;?></option>  
-                      
-                        <option value="Belum Bekerja">Belum bekerja</option>
-                        <option value="Bekerja">Bekerja</option>
-                        <option value="Kuliah">Kuliah</option>
-  
+                <td>Kondisi</td>
+                 <td><select class="form-control" name="kondisi" style="width: 300px">
+                      <option value="<?=$kondisi;?>">-Pilih Kondisi- || <?=$kondisi;?></option>                     
+                      <option value="Belum Bekerja">Belum bekerja</option>
+                      <option value="Bekerja">Bekerja</option>
+                      <option value="Kuliah">Kuliah</option>
                     </select>           
-                    </td>   
-                      </tr>
-
+                </td>   
+                </tr>
                 <tr>
                   <td>Detail Kondisi</td>
                   <td><textarea class="form-control" placeholder="instansi" name="detail_kondisi"><?=$detail_kondisi;?></textarea></td>
@@ -237,7 +234,6 @@
                   <img src="../images/<?=$image;?>" class="img-responsive" alt="Cinque Terre" width="150" height="150"><input type="hidden" name="poto_lama" value="<?=$foto;?>"><br>
                   <input type="file" name="foto"><font color="red"> *contoh format nama file: tahunlulus_jurusan_nama.jpg/png</font></td>
                 </tr>
-
                 <tr>
                   <td colspan="2" align="center">
                     <button type="submit" class="btn btn-primary" name="btn-edit">

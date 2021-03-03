@@ -23,7 +23,7 @@ session_start();
             <li><a href="?module=login"><span class="glyphicon glyphicon-log-in"></span> <b><u>Login</u></b></a></li>
             <li><a href="?module=regis"><span class="glyphicon glyphicon-log-in"></span> <b><u>Register</u></b></a></li>
           </ul>
-<!-- 
+          <!-- 
           <form action="?module=cari_data" method="POST" class="navbar-form navbar-right">
             <input type="text" class="form-control" placeholder="Search...">
             <button type="submit" class="btn btn-primary"><i class="glyphicon glyphicon-search"></i></button>

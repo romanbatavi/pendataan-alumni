@@ -5,8 +5,8 @@
 	<link rel="stylesheet" href="../dashboard.css">
 	<!-- Custom styles for this template -->
   <link href="../carousel.css" rel="stylesheet">
-
   </head>
+
   <body>
   	<?php include_once 'navbar.php'; ?>
   	<div class="container-fluid">
@@ -27,10 +27,8 @@
 
           <div id="loginbox" style="margin-top: ;" class="mainbox col-md-12">
             <div class="panel panel-info">
-              <div class="panel-heading">
-             
+              <div class="panel-heading">           
                 <a class="btn btn-success" href="?module=siswa_input"><span class="glyphicon glyphicon-plus"></span> Tambah Data Diri</a>
-           
                 <div class="pull-right col-md-4">
                   <form action="?module=siswa_search" method="POST">
                     <div class="input-group">
@@ -43,8 +41,8 @@
                     </div>
                   </form>
                 </div>
-
               </div>
+
               <div style="padding-top: 10px" class="panel-body">
                 <br>
                 <?php 
@@ -87,8 +85,8 @@
                       <th style="text-align: center;" colspan="2">Aksi</th>
                     </tr>
                   </thead>
-                  <tbody>
-                 
+
+                  <tbody>   
                   <tr style="text-align: center;">
                     <td><?php echo $no; ?></td>
                     <td><?=$value['nis'];?></td>
@@ -122,14 +120,10 @@
                 echo "Jumlah Data Alumni : ";
                 $siswa->jumlah($query); 
                 ?>
-
               </div>
             </div>
           </div>
-
   			</div>
-
   		</div>
   	</div>
-
   </body>

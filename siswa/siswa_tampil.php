@@ -35,17 +35,15 @@
           ?>
 
   			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-  				
   				<div class="col-sm-12">
-            
             <table class="" align="center">              
             <tr>
               <td>
   					<h2> <?=$nama_siswa;?></h2>
-              </td>
+            </td>
             </tr>
             <tr>
-              <td colspan="2"><img src="../images/<?=$image;?>" class="img-circle" alt="Cinque Terre" width="150" height="150"></td>
+            <td colspan="2"><img src="../images/<?=$image;?>" class="img-circle" alt="Cinque Terre" width="150" height="150"></td>
             </tr>
             <tr>
               <td>NIS</td>

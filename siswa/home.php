@@ -4,8 +4,8 @@
 	<link rel="stylesheet" href="../dashboard.css">
 	<!-- Custom styles for this template -->
   <link href="../carousel.css" rel="stylesheet">
-
   </head>
+
   <body>
   	<?php include_once 'navbar.php'; ?>
   	<div class="container-fluid">
@@ -26,9 +26,7 @@
             <img src="https://smkdp1jkt.sch.id/wp-content/uploads/2017/08/banner-2.jpg" alt="...">
   					</div>
   				</div>
-
   				</div>
-
   				<!-- <h1 class="page-header">Dashboard</h1> -->
 
           <div id="loginbox" style="margin-top: ;" class="mainbox col-md-12">
@@ -59,7 +57,6 @@
               </div>
               <div style="padding-top: 10px" class="panel-body">
                 <br>
-
                 <table class="table table-bordered">
                   <thead>
                     <tr>
@@ -160,8 +157,7 @@
   			</div>
   		</div>
   	</div>
-
-
+    
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
