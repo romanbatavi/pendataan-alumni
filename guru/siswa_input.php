@@ -10,7 +10,6 @@
   	<?php include_once 'navbar.php'; ?>
   	<div class="container-fluid">
   		<div class="row">
-  			
         <!--manggil header1-->
       <?php include_once 'header1.php'; ?>
   			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
@@ -28,7 +27,6 @@
   			</div>
         -->
   			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-  				
           <div class="col-sm-12">
             <h2>Tambah Data Alumni</h2>
             <hr>
@@ -208,17 +206,14 @@
                 </tr>
                 <tr>
                   <td>Kondisi</td>
-                 <td> <select class="form-control" name="kondisi" style="width: 300px">
-                      <option>-Pilih Kondisi-</option>  
-                      
-                        <option value="Belum Bekerja">Belum bekerja</option>
-                        <option value="Bekerja">Bekerja</option>
-                        <option value="Kuliah">Kuliah</option>
-  
-                    </select>           
-                    </td>   
-                      </tr>
-
+                  <td><select class="form-control" name="kondisi" style="width: 300px">
+                      <option>-Pilih Kondisi-</option>   
+                      <option value="Belum Bekerja">Belum bekerja</option>
+                      <option value="Bekerja">Bekerja</option>
+                      <option value="Kuliah">Kuliah</option>
+                      </select>           
+                  </td>   
+                  </tr>
                 <tr>
                   <td>Detail Kondisi</td>
                   <td><textarea class="form-control" placeholder="instansi" name="detail_kondisi"></textarea></td>

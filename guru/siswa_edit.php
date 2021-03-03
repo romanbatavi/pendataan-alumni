@@ -4,20 +4,17 @@
 	<link rel="stylesheet" href="../dashboard.css">
 	<!-- Custom styles for this template -->
   <link href="../carousel.css" rel="stylesheet">
-
   </head>
+
   <body>
   	<?php include_once 'navbar.php'; ?>
-
   	<div class="container-fluid">
   		<div class="row">
   		<?php
        include_once 'header1.php'; 
       ?>
 
-
-  			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-  				
+  			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">			
   				<div class="col-sm-12">
   					<h2><span class="glyphicon glyphicon-edit"></span> Edit Data Siswa</h2>
   					<hr>
@@ -200,17 +197,14 @@
                 </tr>
                 <tr>
                   <td>Kondisi</td>
-                 <td> <select class="form-control" name="kondisi" style="width: 300px">
-                      <option value="<?=$kondisi;?>">-Pilih Kondisi- || <?=$kondisi;?></option>  
-                      
+                  <td><select class="form-control" name="kondisi" style="width: 300px">
+                        <option value="<?=$kondisi;?>">-Pilih Kondisi- || <?=$kondisi;?></option>  
                         <option value="Belum Bekerja">Belum bekerja</option>
                         <option value="Bekerja">Bekerja</option>
                         <option value="Kuliah">Kuliah</option>
-  
                     </select>           
-                    </td>   
-                      </tr>
-
+                  </td>   
+                </tr>
                 <tr>
                   <td>Detail Kondisi</td>
                   <td><textarea class="form-control" placeholder="instansi" name="detail_kondisi"><?=$detail_kondisi;?></textarea></td>
@@ -232,7 +226,6 @@
                   <img src="../images/<?=$image;?>" class="img-responsive" alt="Cinque Terre" width="150" height="150"><input type="hidden" name="poto_lama" value="<?=$foto;?>"><br>
                   <input type="file" name="foto"><font color="red"> *contoh format nama file: tahunlulus_jurusan_nama.jpg/png</font></td>
                 </tr>
-
                 <tr>
                   <td colspan="2" align="center">
                     <button type="submit" class="btn btn-primary" name="btn-edit">

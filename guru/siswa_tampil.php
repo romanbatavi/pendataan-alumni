@@ -112,18 +112,18 @@
               <td><?=$nilai_rata_rata;?></td>
             </tr>
             <tr>
-                  <td colspan="2" align="center">                   
-                    <a href="?module=siswa" class="btn btn-large btn-success"><i class="glyphicon glyphicon-backward"></i> &nbsp;Kembali</a>
-                  </td>
-                  <td></td>
-                  <td>
-                    <a href="../print_siswa.php?nomor_ijazah=<?=$nomor_ijazah?>" target="_blank" class="btn btn-default"><span class="glyphicon glyphicon-print"></span> Cetak</a>
-                  </td>
-                </tr>
+              <td colspan="2" align="center">                   
+              <a href="?module=siswa" class="btn btn-large btn-success"><i class="glyphicon glyphicon-backward"></i> &nbsp;Kembali</a>
+              </td>
+              <td></td>
+              <td>
+              <a href="../print_siswa.php?nomor_ijazah=<?=$nomor_ijazah?>" target="_blank" class="btn btn-default"><span class="glyphicon glyphicon-print"></span> Cetak</a>
+              </td>
+            </tr>
             </table>
-  					<hr>
-  				</div>
+  				<hr>
   			</div>
   		</div>
   	</div>
-  </body>
+  </div>
+</body>

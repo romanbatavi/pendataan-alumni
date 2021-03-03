@@ -4,8 +4,8 @@
 	<link rel="stylesheet" href="../dashboard.css">
 	<!-- Custom styles for this template -->
   <link href="../carousel.css" rel="stylesheet">
-
   </head>
+
   <body>
   	<?php include_once 'navbar.php'; ?>
   	<div class="container-fluid">
@@ -21,13 +21,12 @@
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
   				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">	
   				<!-- Wrapper for slides -->
-  				<div class="carousel-inner" role="listbox">
+  				  <div class="carousel-inner" role="listbox">
   					<div class="item active">
             <img src="https://smkdp1jkt.sch.id/wp-content/uploads/2017/08/banner-2.jpg" alt="...">
   					</div>
   				</div>
-
-  				</div>
+  			</div>
 
   				<!-- <h1 class="page-header">Dashboard</h1> -->
 
@@ -58,8 +57,7 @@
 
               </div>
               <div style="padding-top: 10px" class="panel-body">
-                <br>
-
+              <br>
                 <table class="table table-bordered">
                   <thead>
                     <tr>
@@ -140,7 +138,7 @@
                     }
                     ?>
                     </tbody>
-                  <tr>
+                    <tr>
                     <td colspan="8" align="center">
                       <div class="pagination-wrap">
                         <?php $siswa->paginglink($query,$records_per_page); ?>
@@ -160,7 +158,6 @@
   			</div>
   		</div>
   	</div>
-
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
