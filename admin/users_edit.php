@@ -49,9 +49,7 @@ if (isset($_POST['btn-save'])) {
       $id = $_GET['id'];
       extract($siswa->getData($id,'users','id_user'));
     }
-
     ?>
-
 
   	<div class="container-fluid">
   		<div class="row">
@@ -67,8 +65,7 @@ if (isset($_POST['btn-save'])) {
   				</ul>
   			</div>
 
-  			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-  				
+  			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">			
           <div class="col-sm-12">
             <h2>Edit Data Users</h2>
             <hr>
@@ -111,14 +108,10 @@ if (isset($_POST['btn-save'])) {
                     <a href="?module=users" class="btn btn-large btn-success"><i class="glyphicon glyphicon-backward"></i> &nbsp;Kembali</a>
                   </td>
                 </tr>
-
               </table>
             </form>
           </div>
-
   			</div>
-
   		</div>
   	</div>
-
   </body>

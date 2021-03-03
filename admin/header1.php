@@ -7,4 +7,4 @@
             <li><a href="?module=lowongan"><i class="glyphicon glyphicon-th"></i> Data Lowongan</a></li>
             <li><a href="?module=users"><i class="glyphicon glyphicon-list"></i> Data Users</a></li>
   		</ul>
-  			</div>
+</div>

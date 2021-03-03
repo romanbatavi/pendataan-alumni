@@ -1,14 +1,12 @@
 <?php include_once 'header.php'; ?>
-
 	<!-- Custom style for this template -->
 	<link rel="stylesheet" href="../dashboard.css">
 	<!-- Custom styles for this template -->
   <link href="../carousel.css" rel="stylesheet">
-
   </head>
+
   <body>
   	<?php include_once 'navbar.php'; ?>
-
   	<div class="container-fluid">
   		<div class="row">
   			<div class="col-sm-3 col-md-2 sidebar">
@@ -22,7 +20,6 @@
             <li><a href="?module=users"><i class="glyphicon glyphicon-list"></i> Data Users</a></li>
   				</ul>
   			</div>
-
 
           <?php 
           include_once '../inc/class.php';
@@ -41,14 +38,11 @@
           ?>
 
   			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-  				
   				<div class="col-sm-12">
-            
             <table class="" align="center">              
             <tr>
-              <td>
-  					<h2> <?=$nama_siswa;?></h2>
-                
+            <td>
+  					<h2> <?=$nama_siswa;?></h2>    
               </td>
             </tr>
             <tr>

@@ -4,7 +4,6 @@
 	<link rel="stylesheet" href="../dashboard.css">
 	<!-- Custom styles for this template -->
   <link href="../carousel.css" rel="stylesheet">
-
   </head>
   <body>
   	<?php include_once 'navbar.php'; ?>
@@ -21,7 +20,6 @@
   			</div>
 
   			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-  				
           <div class="col-sm-12">
             <h2>Tambah Data Alumni</h2>
             <hr>

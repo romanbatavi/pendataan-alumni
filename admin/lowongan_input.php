@@ -24,11 +24,10 @@ if (isset($_POST['btn-save'])) {
 	<link rel="stylesheet" href="../dashboard.css">
 	<!-- Custom styles for this template -->
   <link href="../carousel.css" rel="stylesheet">
-
   </head>
+
   <body>
   	<?php include_once 'navbar.php'; ?>
-    
   	<div class="container-fluid">
   		<div class="row">
   			<div class="col-sm-3 col-md-2 sidebar">

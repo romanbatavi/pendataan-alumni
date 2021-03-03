@@ -5,18 +5,14 @@
 	<link rel="stylesheet" href="../dashboard.css">
 	<!-- Custom styles for this template -->
   <link href="../carousel.css" rel="stylesheet">
-
   </head>
+
   <body>
   	<?php include_once 'navbar.php'; ?>
-
-
   	<div class="container-fluid">
   		<div class="row">
       <?php include_once 'header1.php'; ?>
-
   			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-  				
           <div class="col-sm-12">
             <h2>Data Users</h2>
             <hr>
@@ -127,14 +123,10 @@
                 echo "Jumlah Data Users : ";
                 $siswa->jumlah($query); 
                 ?>
-
               </div>
             </div>
           </div>
-
   			</div>
-
   		</div>
   	</div>
-
   </body>

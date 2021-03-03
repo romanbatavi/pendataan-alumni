@@ -4,11 +4,10 @@
 	<link rel="stylesheet" href="../dashboard.css">
 	<!-- Custom styles for this template -->
   <link href="../carousel.css" rel="stylesheet">
-
   </head>
+
   <body>
   	<?php include_once 'navbar.php'; ?>
-
   	<div class="container-fluid">
   		<div class="row">
   			<div class="col-sm-3 col-md-2 sidebar">
@@ -24,7 +23,6 @@
   			</div>
 
   			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-  				
   				<div class="col-sm-12">
   					<h2><span class="glyphicon glyphicon-edit"></span> Edit Data Siswa</h2>
   					<hr>

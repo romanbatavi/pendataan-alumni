@@ -128,7 +128,6 @@
                 echo "Jumlah Data Jurusan : ";
                 $siswa->jumlah($query); 
                 ?>
-
               </div>
             </div>
           </div>

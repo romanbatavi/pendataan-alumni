@@ -38,7 +38,6 @@ if (isset($_POST['btn-save'])) {
   			</div>
         -->
   			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-  				
           <div class="col-sm-12">
             <h2>Tambah Data Jurusan</h2>
             <hr>
@@ -51,6 +50,7 @@ if (isset($_POST['btn-save'])) {
                   <td>ID JURUSAN</td>
                   <td><input class="form-control" type="text" name="id_jurusan" placeholder="ID JURUSAN.." required></td>
                 </tr>
+
                 <tr>
                   <td>JURUSAN</td>
                   <td><input class="form-control" type="text" name="nama_jurusan" placeholder="JURUSAN.." required></td>
@@ -64,14 +64,10 @@ if (isset($_POST['btn-save'])) {
                     <a href="?module=jurusan" class="btn btn-large btn-success"><i class="glyphicon glyphicon-backward"></i> &nbsp;Kembali</a>
                   </td>
                 </tr>
-
               </table>
             </form>
           </div>
-
   			</div>
-
   		</div>
   	</div>
-
   </body>

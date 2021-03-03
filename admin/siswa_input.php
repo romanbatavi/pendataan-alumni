@@ -10,7 +10,6 @@
   	<?php include_once 'navbar.php'; ?>
   	<div class="container-fluid">
   		<div class="row">
-  			
         <!--manggil header1-->
       <?php include_once 'header1.php'; ?>
   			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">

@@ -38,8 +38,8 @@ if (isset($_GET['id'])) {
             <li><a href="?module=users"><i class="glyphicon glyphicon-list"></i> Data Users</a></li>
   				</ul>
   			</div>
-  			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-  				
+  			
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">	
           <div class="col-sm-12">
             <h2>Edit Data Jurusan</h2>
             <?php 
@@ -69,6 +69,7 @@ if (isset($_GET['id'])) {
                   <td><input class="form-control" type="hidden" name="id_jurusan" value="<?=$id_jurusan;?>">
                   <input class="form-control" type="text" value="<?=$id_jurusan;?>" disabled></td>
                 </tr>
+                
                 <tr>
                   <td>JURUSAN</td>
                   <td><input class="form-control" type="text" name="nama_jurusan" value="<?=$nama_jurusan;?>"></td>
@@ -82,14 +83,10 @@ if (isset($_GET['id'])) {
                     <a href="?module=jurusan" class="btn btn-large btn-success"><i class="glyphicon glyphicon-backward"></i> &nbsp;Kembali</a>
                   </td>
                 </tr>
-
               </table>
             </form>
           </div>
-
   			</div>
-
   		</div>
   	</div>
-
   </body>

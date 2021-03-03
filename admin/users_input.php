@@ -40,7 +40,6 @@ if (isset($_POST['btn-save'])) {
   			</div>
         -->
   			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-  				
           <div class="col-sm-12">
             <h2>Tambah Data Users</h2>
             <hr>
@@ -70,7 +69,6 @@ if (isset($_POST['btn-save'])) {
                   </select>
                   </td>
                 </tr>
-
                 <tr>
                   <td colspan="2" align="center">
                     <button type="submit" class="btn btn-primary" name="btn-save">
@@ -79,14 +77,10 @@ if (isset($_POST['btn-save'])) {
                     <a href="?module=jurusan" class="btn btn-large btn-success"><i class="glyphicon glyphicon-backward"></i> &nbsp;Kembali</a>
                   </td>
                 </tr>
-
               </table>
             </form>
           </div>
-
   			</div>
-
   		</div>
   	</div>
-
   </body>

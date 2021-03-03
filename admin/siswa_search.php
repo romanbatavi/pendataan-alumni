@@ -5,12 +5,10 @@
 	<link rel="stylesheet" href="../dashboard.css">
 	<!-- Custom styles for this template -->
   <link href="../carousel.css" rel="stylesheet">
-
   </head>
+
   <body>
   	<?php include_once 'navbar.php'; ?>
-
-
   	<div class="container-fluid">
   		<div class="row">
   			<div class="col-sm-3 col-md-2 sidebar">
@@ -25,7 +23,6 @@
   			</div>
 
   			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-  				
           <div class="col-sm-12">
             <h2>Data Alumni</h2>
             <hr>
@@ -47,8 +44,8 @@
                     </div>
                   </form>
                 </div>
-
               </div>
+
               <div style="padding-top: 10px" class="panel-body">
                 <br>
                 <?php 
@@ -138,7 +135,6 @@
                 echo "Jumlah Data Alumni : ";
                 $siswa->jumlah($query); 
                 ?>
-
               </div>
             </div>
           </div>
