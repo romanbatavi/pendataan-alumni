@@ -24,7 +24,7 @@ if (isset($_POST['login'])) {
             <h2 class="form-signin-heading"><center>Selamat Datang</center></h2>
             <input type="text" name="username" class="form-control" placeholder="Username" required autofocus>
             <input type="password" name="password" class="form-control" placeholder="Password" required>
-            <button class="btn btn-lg btn-primary btn-block btn-login" name="login" type="submit">Sign in</button>
+            <button class="btn btn-lg btn-primary btn-block btn-login" name="login" type="submit">Login</button>
         </form>
     </div>
 </div>
